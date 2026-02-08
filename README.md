@@ -86,15 +86,13 @@ JobServicesMaster/
 
 ---
 
-# ⚙️ Installation Guide
+# Clone Repository:
 
-## 1️⃣ Clone Repository
-
-```bash
 git clone https://github.com/your-username/job-services-master.git
 cd job-services-master
 
-2️⃣ Create Virtual Environment
+# Create Virtual Environment:
+
 python -m venv venv
 venv\Scripts\activate
 OR
