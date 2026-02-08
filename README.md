@@ -56,31 +56,33 @@ PostgreSQL Database
 ---
 
 ## 📂 Project Structure
+
+```
 JobServicesMaster/
 │
 ├── JobControllerMaster/
-│ └── job_controller_master.py
+│   └── job_controller_master.py
 │
 ├── JobDatabaseConnection/
-│ └── database_connection_job.py
+│   └── database_connection_job.py
 │
 ├── JobModdelEntityMaster/
-│ └── model_entity_master_table.py
+│   └── model_entity_master_table.py
 │
 ├── JobRepositoryDAO/
-│ └── repository_DAO.py
+│   └── repository_DAO.py
 │
 ├── JobRequestResponseMaster/
-│ └── job_request_response_master.py
+│   └── job_request_response_master.py
 │
 ├── JobServiceImplementation/
-│ └── job_service_implementation_master.py
+│   └── job_service_implementation_master.py
 │
 ├── JobServicesMaster/
-│ └── job_services_master.py
+│   └── job_services_master.py
 │
 └── main.py
-
+```
 
 ---
 
@@ -92,3 +94,9 @@ JobServicesMaster/
 git clone https://github.com/your-username/job-services-master.git
 cd job-services-master
 
+2️⃣ Create Virtual Environment
+python -m venv venv
+venv\Scripts\activate
+OR
+python3 -m venv venv
+source venv/bin/activate
