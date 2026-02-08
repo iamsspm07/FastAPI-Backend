@@ -268,7 +268,7 @@ http://127.0.0.1:8000/redoc
 
 ## 👨‍💻 Author
 
-**Sujit Maity**
+**SUJIT SHIBAPRASAD MAITY**
 
 ---
 
