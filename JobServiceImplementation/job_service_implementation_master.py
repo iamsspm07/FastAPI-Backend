@@ -23,4 +23,4 @@ class JobServicesFunctionMasterImplementation(JobServicesFunctionMaster):
         return self.repository_dao.display_all_jobs_from_database(database)
 
     def display_function_job_code_email(self, database: Session, display_request: JobRequestCodeEmail):
-        return self.display_function_job_code_email(database, display_request)
+        return self.repository_dao.fetch_all_jobs_from_database_code_email(database, display_request)
